@@ -1,0 +1,10 @@
+on(press){
+   if(sound)
+   {
+      turnOff();
+   }
+   else
+   {
+      turnOn();
+   }
+}

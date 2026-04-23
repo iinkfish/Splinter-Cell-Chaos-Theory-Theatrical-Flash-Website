@@ -1,0 +1,12 @@
+s_rain = new Sound(_root.effects_mc);
+s_rain.attachSound("Loop_Rain");
+s_rain.start(0,9999);
+s_traffic = new Sound(this);
+s_traffic.attachSound("Loop_Traffic");
+s_rain.setVolume(20);
+s_pageturn = new Sound(this);
+s_pageturn.attachSound("pageturn");
+s_music = new Sound(_root.musicloop_mc);
+s_music.attachSound("Loop_Music2");
+s_music.start(0,9999);
+s_music.setVolume(25);

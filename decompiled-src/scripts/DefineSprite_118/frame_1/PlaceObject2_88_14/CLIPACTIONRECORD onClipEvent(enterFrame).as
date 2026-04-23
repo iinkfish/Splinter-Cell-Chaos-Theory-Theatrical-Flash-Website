@@ -1,0 +1,10 @@
+onClipEvent(enterFrame){
+   if(show)
+   {
+      nextFrame();
+   }
+   else
+   {
+      prevFrame();
+   }
+}

@@ -1,0 +1,1 @@
+bg.lightning.playLightning();
